@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do list</title>
+    <link href="task3.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="task-input">
+            <input type="text" placeholder="Enter your task">
+        </div>
+        <div class="controls">
+            <div class="filters">
+                <span id="all" class="active">All</span>
+                <span id="pending">Pending</span>
+                <span id="completed">Completed</span>
+            </div>
+            <button class="clr-btn">Remove All</button>
+        </div>
+        <ul class="task-box">
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id="1">
+                    <p>Renew gym membership</p>
+                </label>
+                <div class="settings">
+                    <i class="uil uil-ellipsis-h">...</i>
+                    <ul class="task-menu">
+                        <li><i class="uil uil-pen"></i>Edit</li>
+                        <li><i class="uil uil-trash"></i>Delete</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id="1">
+                    <p>Complete Oasis task</p>
+                </label>
+                <div class="settings">
+                    <i class="uil uil-ellipsis-h">...</i>
+                </div>
+            </li>
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id="1">
+                    <p>Complete assignments</p>
+                </label>
+                <div class="settings">
+                    <i class="uil uil-ellipsis-h">...</i>
+                </div>
+                <li class="task">
+                    <label for="1">
+                        <input type="checkbox" id="1">
+                        <p>Complete project</p>
+                    </label>
+                    <div class="settings">
+                        <i class="uil uil-ellipsis-h">...</i>
+                    </div>
+                </li>
+                <li class="task">
+                    <label for="1">
+                        <input type="checkbox" id="1">
+                        <p>Workout</p>
+                    </label>
+                    <div class="settings">
+                        <i class="uil uil-ellipsis-h">...</i>
+                    </div>
+                </li>
+            </li>
+        </ul>
+    </div>
+    <script src="task3.js"></script>
+</body>
+</html>
